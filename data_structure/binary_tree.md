@@ -112,6 +112,42 @@ func postorderTraversal(root *TreeNode) []int {
 }
 ```
 
+```java
+public List<Integer> postorderTraversal(TreeNode root) 
+{
+	List<Integer> res = new ArrayList<>();
+	Deque<TreeNode> stack = new ArrayDeque<>();
+
+	TreeNode stackTop = null;
+	TreeNode lastVisited = null;
+
+	while (root != null || !stack.isEmpty())
+	{
+	    if (root != null)
+	    {
+		stack.push(root);
+		root = root.left;
+		continue;
+	    } 
+
+	    stackTop = stack.peek();
+	    
+	    if (stackTop.right != null && stackTop.right != lastVisited)
+	    {
+		root = stackTop.right;
+	    }
+	    else 
+	    {
+		res.add(stackTop.val);
+		lastVisited = stackTop;
+		stack.pop();
+	    }
+	}
+
+	return res;
+}
+```
+
 注意点
 
 - 核心就是：根节点必须在右节点弹出之后，再弹出
