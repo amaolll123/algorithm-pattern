@@ -3,8 +3,6 @@
 ##### [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 ##### [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
 #  
-# 
-# 
 #### [Longest Path](https://leetcode.com/submissions/detail/383417408/)
 ```java
     int leftLongestSinglePath = 0;
