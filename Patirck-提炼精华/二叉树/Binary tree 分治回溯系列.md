@@ -19,3 +19,16 @@
     
     Math.max(leftMaxPair[0], 0) + Math.max(rightMaxPair[0], 0) + root.val
 ```
+
+#### [Validate BST](https://leetcode.com/submissions/detail/383578242/)
+```java
+    public Result(boolean isValid, int max, int min)
+    {
+        this.isValid = isValid;
+        this.max = max;
+        this.min = min;
+    }
+    
+    if (leftRes.max >= root.val || rightRes.min <= root.val)
+        res.isValid = false;
+```
