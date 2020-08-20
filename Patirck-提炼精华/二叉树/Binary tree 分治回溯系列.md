@@ -20,7 +20,7 @@
     Math.max(leftMaxPair[0], 0) + Math.max(rightMaxPair[0], 0) + root.val
 ```
 
-#### [Validate BST](https://leetcode.com/submissions/detail/383578242/)
+#### [98. Validate Binary Search Tree](https://leetcode.com/submissions/detail/383578242/)
 ```java
     public Result(boolean isValid, int max, int min)
     {
