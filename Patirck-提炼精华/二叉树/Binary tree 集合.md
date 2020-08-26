@@ -2,9 +2,12 @@
 
 ##### [124.Binary Tree Maximum Path Sum](https://leetcode.com/submissions/detail/383424572/)
 ```java
-    Math.max(Math.max(leftMaxPair[0], rightMaxPair[0]), 0) + root.val;
+    // res[0] - MaxSinglePathSum
+    // res[1] - MaxPathSum
+    int[] resMaxPair = new int[] {0, Integer.MIN_VALUE};
     
-    Math.max(leftMaxPair[0], 0) + Math.max(rightMaxPair[0], 0) + root.val
+    // 左右最长single path sum + root
+    resMaxPair[1] = Math.max(leftMaxPair[0], 0) + Math.max(rightMaxPair[0], 0) + root.val
 ```
 
 ##### [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/submissions/detail/383535536/)
@@ -17,7 +20,7 @@
         return leftRes;
 ```
 
-#### [98. Validate Binary Search Tree](https://leetcode.com/submissions/detail/383578242/)
+##### [98. Validate Binary Search Tree](https://leetcode.com/submissions/detail/383578242/)
 ```java
     public Result(boolean isValid, int max, int min)
     {
@@ -40,7 +43,6 @@
     }
 ```
 
-#  
 ##### [543. Diameter of Binary Tree](https://leetcode.com/submissions/detail/383417408/)
 ```java
     int leftLongestSinglePath = 0;
