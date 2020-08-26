@@ -49,3 +49,9 @@
     if (leftRes.max >= root.val || rightRes.min <= root.val)
         res.isValid = false;
 ```
+
+##### [101. Symmetric Tree](https://leetcode.com/submissions/detail/386480852/)
+```java
+    boolean isLeftSymmetric = helper(root1.left, root2.right);
+    boolean isRightSymmetric = helper(root1.right, root2.left);
+```
