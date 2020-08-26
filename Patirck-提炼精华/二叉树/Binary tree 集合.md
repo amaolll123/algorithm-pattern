@@ -9,23 +9,23 @@
     resMaxPair[1] = Math.max(leftMaxPair[0], 0) + Math.max(rightMaxPair[0], 0) + root.val
 ```
 
-##### [687. Longest Univalue Path](https://leetcode.com/submissions/detail/383351782/)
-```java
-    // res[0] - MaxSinglePathSum
-    // res[1] - MaxPathSum
-    
-    if (root.left != null && root.left.val == root.val) 
-        leftLongestSinglePath = leftLongestPair[0] + 1;
-```
+        [687. Longest Univalue Path](https://leetcode.com/submissions/detail/383351782/)
+        ```java
+            // res[0] - MaxSinglePathSum
+            // res[1] - MaxPathSum
 
-##### [543. Diameter of Binary Tree](https://leetcode.com/submissions/detail/383417408/)
-```java
-    // res[0] - MaxSinglePathSum
-    // res[1] - MaxPathSum
-    
-    if (root.left != null)
-        leftLongestSinglePath = leftLongestPair[0] + 1;
-```
+            if (root.left != null && root.left.val == root.val) 
+                leftLongestSinglePath = leftLongestPair[0] + 1;
+        ```
+
+        [543. Diameter of Binary Tree](https://leetcode.com/submissions/detail/383417408/)
+        ```java
+            // res[0] - MaxSinglePathSum
+            // res[1] - MaxPathSum
+
+            if (root.left != null)
+                leftLongestSinglePath = leftLongestPair[0] + 1;
+        ```
 
 ##### [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/submissions/detail/383535536/)
 ```java
