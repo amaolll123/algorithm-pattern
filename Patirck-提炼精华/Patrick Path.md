@@ -1,7 +1,8 @@
 - [X] [双指针](https://github.com/amaolll123/fucking-algorithm/blob/master/%E7%AE%97%E6%B3%95%E6%80%9D%E7%BB%B4%E7%B3%BB%E5%88%97/%E5%8F%8C%E6%8C%87%E9%92%88%E6%8A%80%E5%B7%A7.md)  
 - [ ] [链表](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list)  
-  - [ ] [Reverse Linked List](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#reverse-linked-list)
   - [ ] [Remove duplicate in linked list](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#remove-duplicates-from-sorted-list-ii)
+  - [ ] [Linked List Cycle](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#remove-duplicates-from-sorted-list-ii)
+  - [ ] [Reverse Linked List](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#reverse-linked-list)
   - [ ] [Merge 2 sorted lists](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#merge-two-sorted-lists)
 - [ ] [Explore 链表](https://leetcode.com/explore/learn/card/linked-list/)  
 
