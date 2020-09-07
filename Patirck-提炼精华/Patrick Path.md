@@ -2,10 +2,7 @@
 - [ ] [链表](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list)  
   - [ ] [Reverse Linked List](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#reverse-linked-list)
   - [ ] [Remove duplicate in linked list](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#remove-duplicates-from-sorted-list-ii)
-  - [ ] []()
-  - [ ] []()
-  - [ ] []()
-  - [ ] []()
+  - [ ] [Merge 2 sorted lists](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#merge-two-sorted-lists)
   - [ ] []()
 - [ ] [Explore 链表](https://leetcode.com/explore/learn/card/linked-list/)  
 
