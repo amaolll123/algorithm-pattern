@@ -2,7 +2,7 @@
 - [ ] [链表](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list)  -- [笔记](https://github.com/amaolll123/algorithm-pattern/blob/master/Patirck-%E6%8F%90%E7%82%BC%E7%B2%BE%E5%8D%8E/%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8.md)
   - [X] [Remove duplicate in linked list](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#remove-duplicates-from-sorted-list-ii)
   - [X] [Reverse Linked List](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#reverse-linked-list)
-  - [ ] [Merge 2 sorted lists](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#merge-two-sorted-lists)
+  - [X] [Merge 2 sorted lists](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#merge-two-sorted-lists)
   - [ ] [Partition List](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#partition-list)  
   - [X] [Linked List Cycle](https://greyireland.gitbook.io/algorithm-pattern/shu-ju-jie-gou-pian/linked_list#remove-duplicates-from-sorted-list-ii)
 - [ ] [Explore 链表](https://leetcode.com/explore/learn/card/linked-list/)  
